@@ -1,0 +1,33 @@
+/*@import "~bootstrap/dist/css/bootstrap.css";
+@import "~pug-bootstrap/_bootstrap.pug";*/
+
+
+
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+ display: flex;
+ flex-direction: row;
+ 
+}
+.aside{
+  margin-right: 5px;
+  margin-top: 55px;
+  word-wrap: none;
+  width: 25%;
+}
+.section{
+  margin-top: 35px;
+  width: 65%;
+}
+
+button{
+  margin-top: 15px;
+}

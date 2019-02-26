@@ -1,0 +1,17 @@
+extends layout
+
+
+block content
+  h1(style="text-align: center ; background-color : gray ; color: white")= title
+  .container   
+    include aside.pug
+       
+    .section
+      
+          ul
+            each book in book_list
+                li 
+                    a(href=book.url) #{book.title} 
+                    | (#{book.author.name})
+            else
+                li There are no books
